@@ -17,7 +17,7 @@ jobs:
       - run:
           name: Run tests
           command: |
-            python -c "import sys; print('\n'.join(sys.path))"
+            python -c "import sys; sys.path.append("/root/project")"
             poetry run pytest
 
 workflows:
