@@ -17,6 +17,7 @@ jobs:
       - run:
           name: Run tests
           command: |
+            pip install pytest
             python -c "import sys; sys.path.append('/root/project')"
             python -m pytest
 
