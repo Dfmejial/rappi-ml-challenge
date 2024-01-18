@@ -17,6 +17,7 @@ jobs:
       - run:
           name: Run tests
           command: |
+            python -c "import sys; print('\n'.join(sys.path))"
             poetry run pytest
 
 workflows:
