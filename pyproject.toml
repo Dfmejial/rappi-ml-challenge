@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "app"
+name = "app_rappi_dfmejial"
 version = "0.0.2"
 description = "Rappi Titanic challenge"
 authors = ["Daniel Mejia <dfmejial@unal.edu.co>"]
