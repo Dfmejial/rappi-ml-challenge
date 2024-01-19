@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from data.reader import TitanicDataReader
+from app.data.reader import TitanicDataReader
 
 @pytest.fixture
 def titanic_data_reader():

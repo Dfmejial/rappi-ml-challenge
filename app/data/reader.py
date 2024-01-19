@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from conf.settings import COLS_TO_REMOVE
+from app.conf.settings import COLS_TO_REMOVE
 
 logger = logging.getLogger(__name__)
 
@@ -38,7 +38,7 @@ class TitanicDataReader:
         if data_path:
             self.data_path = data_path
         else:
-            self.data_path = os.path.join(Path.cwd(), "data/raw_data")
+            self.data_path = os.path.join(Path.cwd(), "app/data/raw_data")
 
         self.cols_to_remove = COLS_TO_REMOVE if cols_to_remove is None else cols_to_remove
 

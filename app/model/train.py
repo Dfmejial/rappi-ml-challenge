@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score, recall_score, f1_score
 
-from conf.settings import TRAINING_FEATURES, TRUE_VALUE
+from app.conf.settings import TRAINING_FEATURES, TRUE_VALUE
 
 logger = logging.getLogger(__name__)
 
@@ -129,7 +129,7 @@ class TitanicModelTrainer:
 
         name_uuid = f"{today}_{uuid.uuid4().hex}"
 
-        path = os.path.join(Path.cwd(), f"model/trained_models/{name_uuid}.joblib")
+        path = os.path.join(Path.cwd(), f"app/model/trained_models/{name_uuid}.joblib")
 
         dump(model, path)
 

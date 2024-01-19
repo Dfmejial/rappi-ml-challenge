@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "rappi-challenge"
+name = "app"
 version = "0.0.1"
 description = "Rappi Titanic challenge"
-authors = []
+authors = ["Daniel Mejia <dfmejial@unal.edu.co>"]
 classifiers = [
     "Programming Language :: Python :: 3.9"
 ]
@@ -20,3 +20,6 @@ scikit-learn = ">=1.2.1"
 pytest = "^7.0.0"
 pytest-cov = "^4.0.0"
 pytest-mock = "^3.10.0"
+
+[tool.poetry.scripts]
+rappi-dfmejial = "main:main"
