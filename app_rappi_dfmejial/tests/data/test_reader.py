@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from app.data.reader import TitanicDataReader
+from app_rappi_dfmejial.data.reader import TitanicDataReader
 
 @pytest.fixture
 def titanic_data_reader():

@@ -1,9 +1,9 @@
 import logging
 import argparse
 
-from app.data.reader import TitanicDataReader
-from app.data.pre_processer import TitanicDataPreprocessor
-from app.model.train import TitanicModelTrainer
+from app_rappi_dfmejial.data.reader import TitanicDataReader
+from app_rappi_dfmejial.data.pre_processer import TitanicDataPreprocessor
+from app_rappi_dfmejial.model.train import TitanicModelTrainer
 
 logger = logging.getLogger(__name__)
 
