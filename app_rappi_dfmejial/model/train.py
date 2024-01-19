@@ -129,7 +129,7 @@ class TitanicModelTrainer:
 
         name_uuid = f"{today}_{uuid.uuid4().hex}"
 
-        path = os.path.join(Path.cwd(), f"app/model/trained_models/{name_uuid}.joblib")
+        path = os.path.join(Path.cwd(), f"app_rappi_dfmejial/model/trained_models/{name_uuid}.joblib")
 
         dump(model, path)
 

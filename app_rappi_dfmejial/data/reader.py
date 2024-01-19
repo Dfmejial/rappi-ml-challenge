@@ -38,7 +38,7 @@ class TitanicDataReader:
         if data_path:
             self.data_path = data_path
         else:
-            self.data_path = os.path.join(Path.cwd(), "app/data/raw_data")
+            self.data_path = os.path.join(Path.cwd(), "app_rappi_dfmejial/data/raw_data")
 
         self.cols_to_remove = COLS_TO_REMOVE if cols_to_remove is None else cols_to_remove
 
