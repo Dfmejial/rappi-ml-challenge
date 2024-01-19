@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
-from app.model.train import TitanicModelTrainer
-from app.data.reader import TitanicDataReader
+from app_rappi_dfmejial.model.train import TitanicModelTrainer
+from app_rappi_dfmejial.data.reader import TitanicDataReader
 from sklearn.ensemble import RandomForestClassifier
 
 @pytest.fixture

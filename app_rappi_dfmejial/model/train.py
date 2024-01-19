@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score, recall_score, f1_score
 
-from app.conf.settings import TRAINING_FEATURES, TRUE_VALUE
+from app_rappi_dfmejial.conf.settings import TRAINING_FEATURES, TRUE_VALUE
 
 logger = logging.getLogger(__name__)
 

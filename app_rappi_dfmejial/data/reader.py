@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from app.conf.settings import COLS_TO_REMOVE
+from app_rappi_dfmejial.conf.settings import COLS_TO_REMOVE
 
 logger = logging.getLogger(__name__)
 

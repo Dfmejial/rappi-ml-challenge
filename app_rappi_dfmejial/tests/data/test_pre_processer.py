@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from app.data.pre_processer import TitanicDataPreprocessor
+from app_rappi_dfmejial.data.pre_processer import TitanicDataPreprocessor
 
 @pytest.fixture
 def titanic_data_preprocessor():
