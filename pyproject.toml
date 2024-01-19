@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "app"
+version = "0.0.1"
+description = "Rappi Titanic challenge"
+authors = ["Daniel Mejia <dfmejial@unal.edu.co>"]
+classifiers = [
+    "Programming Language :: Python :: 3.9"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.10"
+
+numpy = "^1.18.5"
+joblib = "^1.1.0"
+pandas = "^1.1.5"
+seaborn = "^0.13.0"
+scikit-learn = ">=1.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+pytest-mock = "^3.10.0"
+
+[tool.poetry.scripts]
+rappi-dfmejial = "app.main:main"

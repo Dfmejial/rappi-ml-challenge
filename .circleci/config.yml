@@ -1,0 +1,28 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: python:3.9
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install dependencies
+          uses: actions/checkout@v1
+          command: |
+            pip install poetry
+            poetry install
+
+      - run:
+          name: Run tests
+          command: |
+            python -c "import sys; sys.path.append('/root/project')"
+            python -m poetry run pytest --cov
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - build
