@@ -6,6 +6,7 @@ from pathlib import Path
 import pandas as pd
 
 from app_rappi_dfmejial.conf.settings import COLS_TO_REMOVE
+from app_rappi_dfmejial.data import filepath
 
 logger = logging.getLogger(__name__)
 
@@ -38,7 +39,7 @@ class TitanicDataReader:
         if data_path:
             self.data_path = data_path
         else:
-            self.data_path = os.path.join(Path.cwd(), "app_rappi_dfmejial/data/raw_data")
+            self.data_path = filepath
 
         self.cols_to_remove = COLS_TO_REMOVE if cols_to_remove is None else cols_to_remove
 
