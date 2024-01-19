@@ -1,7 +1,7 @@
 
 # Rappi Challenge
 
-The **app-rappi-dfmejial** is a Python package that provides a workflow for handling the Rappi Challenge on the Titanic dataset. The package includes functionality for reading raw data, preprocessing it, training a machine learning model, and evaluating the model's performance.
+The **app-rappi-dfmejial** is a Python package that provides a workflow for handling the Rappi Challenge on the Titanic dataset. The package includes functionality for reading raw data, preprocessing it, training a machine learning model (Random Forest Classifier), and evaluating the model's performance.
 
 ## Installation
 
