@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "app"
-version = "0.0.1"
+version = "0.0.2"
 description = "Rappi Titanic challenge"
 authors = ["Daniel Mejia <dfmejial@unal.edu.co>"]
 classifiers = [
