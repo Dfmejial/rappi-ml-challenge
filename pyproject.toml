@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "app_rappi_dfmejial"
-version = "0.0.4"
+version = "0.0.5"
 
 description = "Rappi Titanic challenge"
 authors = ["Daniel Mejia <dfmejial@unal.edu.co>"]
@@ -10,7 +10,7 @@ classifiers = [
 include = ['data/train.csv']
 
 [tool.poetry.dependencies]
-python = "3.9.0"
+python = "^3.9.0"
 
 numpy = "^1.18.5"
 joblib = "^1.1.0"
